@@ -34,7 +34,7 @@ defmodule One do
       "twone" -> Enum.at([2,1], i)
       "threeight" -> Enum.at([3,8], i)
       "eighthree" -> Enum.at([8,3], i)
-      _ -> String.to_integer(num)
+      _ -> num
     end
   end
 
